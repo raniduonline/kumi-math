@@ -1,0 +1,35 @@
+{
+  "name": "kumi-math",
+  "version": "1.0.0",
+  "description": "1st Grade Math Gap Finder - A web application to help parents identify and address learning gaps in 1st grade math",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "keywords": [
+    "education",
+    "math",
+    "elementary",
+    "assessment",
+    "learning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "next": "^14.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0"
+  }
+}
