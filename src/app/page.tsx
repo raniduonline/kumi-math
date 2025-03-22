@@ -33,9 +33,47 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <div className="relative w-full max-w-md h-64 md:h-80">
-                {/* Placeholder for hero image */}
-                <div className="absolute inset-0 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                  <span className="text-2xl font-display">Math Learning Journey</span>
+                {/* Math Learning Journey with icons */}
+                <div className="absolute inset-0 rounded-xl bg-white/20 backdrop-blur-sm flex flex-col items-center justify-center overflow-hidden">
+                  {/* Math icons floating in background */}
+                  <div className="absolute top-4 left-4 w-12 h-12 bg-white/30 rounded-lg flex items-center justify-center text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
+                      <path d="M11.25 5.25l2.36-2.36a1.5 1.5 0 012.12 0l2.36 2.36a1.5 1.5 0 010 2.12l-2.36 2.36-2.36-2.36a1.5 1.5 0 010-2.12z" />
+                      <path fillRule="evenodd" d="M10.5 6.75a.75.75 0 01.75-.75h6a.75.75 0 010 1.5h-6a.75.75 0 01-.75-.75zm-4.28 4.95a.75.75 0 10-1.06 1.06l3 3a.75.75 0 101.06-1.06l-3-3zM7.78 14.5a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l3-3a.75.75 0 000-1.06z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div className="absolute top-16 right-8 w-10 h-10 bg-white/30 rounded-lg flex items-center justify-center text-white transform rotate-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
+                    </svg>
+                  </div>
+                  <div className="absolute bottom-12 left-12 w-12 h-12 bg-white/30 rounded-full flex items-center justify-center text-white transform -rotate-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+                    </svg>
+                  </div>
+                  <div className="absolute bottom-6 right-6 w-14 h-14 bg-white/30 rounded-lg flex items-center justify-center text-white transform rotate-45">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                  </div>
+                  <div className="absolute top-1/2 left-1/3 w-10 h-10 bg-white/30 rounded-lg flex items-center justify-center text-white transform -rotate-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                  </div>
+                  
+                  {/* Text overlay */}
+                  <div className="relative z-10 bg-white/40 backdrop-blur-sm px-6 py-3 rounded-lg">
+                    <span className="text-2xl font-display font-bold text-primary-800">Math Learning Journey</span>
+                  </div>
+                  
+                  {/* Path illustration */}
+                  <div className="absolute w-full h-1/2 bottom-0 flex items-end">
+                    <svg viewBox="0 0 400 100" className="w-full h-20 text-white/30">
+                      <path d="M0,50 C80,20 120,80 200,50 C280,20 320,80 400,50" stroke="currentColor" strokeWidth="5" fill="none" strokeDasharray="8 4" />
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>
